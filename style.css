@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 20;
+}
+.contenedor{
+    width: 100%;
+}
+.encabezado{
+    position: absolute;
+    width: 100%;
+    height: 38px;
+    background-color: #1CD1B0;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+p{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    width: 111px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+.heroes{
+    position: absolute;
+    background-color: #00669F;
+    height: 101px;
+    width: 100%;
+    left: 0px;
+    top: 38px;
+    border-radius: 0px;
+    box-shadow: 0px 10px 7px rgba(0,0,0,0.25);
+    box-sizing: border-box;
+}
+.foto{
+    position: relative;
+    top: -60px;
+    left: 80px;
+}
+.nombre{
+    position: relative;
+    top: -150px;
+    left: -10px;
+}
+.corazon{
+    position: relative;
+    top: -305px;
+    left: 15px;
+}
+.texto{
+    box-sizing: content-box;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    top: -120px;
+    left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.texto1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    position: relative;
+    color: white;
+
+    top: -40px;
+    left: 38px;
+}
+.rectangulo{
+    position: relative;
+    top: 120px;
+    left: 75px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: content-box;
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+.bat{
+    border-radius: 100%;
+}
+.cards{
+    display: inline-block;
+}
+.card1{
+    width: 300px;
+    height: 536px;
+    background-color:#F3F3F3;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.card2{
+    width: 300px;
+    height: 536px;
+    background-color:#F3F3F3;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card3{
+    width: 300px;
+    height: 536px;
+    background-color:#F3F3F3;
+    margin-left: 50px;
+}
+.pie{
+    position: absolute;
+    width: 100%;
+    height: 51px;
+    background-color: #00669F;
+    padding-top: 15px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.ultimo{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+}
